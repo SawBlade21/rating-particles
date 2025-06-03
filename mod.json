@@ -1,0 +1,124 @@
+{
+	"geode": "4.5.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "sawblade.rating_particles",
+	"name": "Rating Particles",
+	"version": "v1.0.0",
+	"developer": "Sawblade",
+	"description": "Adds Mythic rating particles to all ratings.",
+	"settings": {
+		"general-title": {
+			"type": "title",
+			"name": "General Settings",
+			"description": "These settings control the miscellaneous particle settings."
+		},
+		"amount": {
+			"name": "Amount",
+			"description": "The number of particles to be generated.",
+			"type": "int",
+			"default": 20,
+			"min": 0,
+			"max": 100
+		},
+		"speed": {
+			"name": "Speed",
+			"description": "How fast the particles move.",
+			"type": "int",
+			"default": 10,
+			"min": 0,
+			"max": 100
+		},
+		"size": {
+			"name": "Size",
+			"description": "The size of the particles.",
+			"type": "int",
+			"default": 4,
+			"min": 0,
+			"max": 100
+		},
+		"texture": {
+			"name": "Texture",
+			"description": "The texture ID of particles. 0 for Square, and the ID matches the order in the particle object.",
+			"type": "int",
+			"default": 0,
+			"min": 0,
+			"max": 212
+		},
+		"blending": {
+			"name": "Blending",
+			"description": "Whether the particles color is blending or not.",
+			"type": "bool",
+			"default": true
+		},
+		"color-title": {
+			"type": "title",
+			"name": "Color Settings",
+			"description": "These settings control the particle colors."
+		},
+		"mythic-color": {
+			"type": "rgb",
+			"name": "Mythic Particles Color",
+			"default": [0, 255, 255]
+		},
+		"legendary-color": {
+			"type": "rgb",
+			"name": "Legendary Particles Color",
+			"default": [255, 0, 255]
+		},
+		"epic-color": {
+			"type": "rgb",
+			"name": "Epic Particles Color",
+			"default": [255, 255, 0]
+		},
+		"featured-color": {
+			"type": "rgb",
+			"name": "Featured Particles Color",
+			"default": [255, 255, 100]
+		},
+		"rate-color": {
+			"type": "rgb",
+			"name": "Star Rate / Unrated Particles Color",
+			"default": [255, 255, 255]
+		},
+		"show-title": {
+			"type": "title",
+			"name": "Visibilty Settings",
+			"description": "These settings control the visibility of particles."
+		},
+		"show-mythic": {
+			"name": "Show Mythic Particles",
+			"type": "bool",
+			"default": true
+		},
+		"show-legendary": {
+			"name": "Show Legendary Particles",
+			"type": "bool",
+			"default": true
+		},
+		"show-epic": {
+			"name": "Show Epic Particles",
+			"type": "bool",
+			"default": true
+		},
+		"show-featured": {
+			"name": "Show Featured Particles",
+			"type": "bool",
+			"default": true
+		},
+		"show-rate": {
+			"name": "Show Star Rate Particles",
+			"type": "bool",
+			"default": true
+		}
+	},
+	"tags": [
+		"offline",
+		"enhancement",
+		"customization"
+	]
+}
