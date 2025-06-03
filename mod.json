@@ -7,10 +7,13 @@
 		"ios": "2.2074"
 	},
 	"id": "sawblade.rating_particles",
+	"links": {
+		"source": "https://github.com/SawBlade21/rating-particles"
+	},
 	"name": "Rating Particles",
 	"version": "v1.0.0",
 	"developer": "Sawblade",
-	"description": "Adds Mythic rating particles to all ratings.",
+	"description": "Adds Mythic rating particles to all ratings",
 	"settings": {
 		"general-title": {
 			"type": "title",
