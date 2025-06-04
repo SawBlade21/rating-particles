@@ -10,7 +10,7 @@
 		"source": "https://github.com/SawBlade21/rating-particles"
 	},
 	"name": "Rating Particles",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "Sawblade",
 	"description": "Adds Mythic rating particles to all ratings",
 	"settings": {
@@ -113,7 +113,7 @@
 			"default": true
 		},
 		"show-rate": {
-			"name": "Show Star Rate Particles",
+			"name": "Show Star Rate / Unrated Particles",
 			"type": "bool",
 			"default": true
 		}

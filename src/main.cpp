@@ -1,5 +1,4 @@
 #include <Geode/Geode.hpp>
-#include <Geode/modify/LevelInfoLayer.hpp>
 #include <Geode/modify/GJDifficultySprite.hpp>
 
 using namespace geode::prelude;
@@ -68,7 +67,6 @@ class $modify(ParticleGJDifficultySprite, GJDifficultySprite) {
 
     static GJDifficultySprite* create(int p0, GJDifficultyName name) {
         GJDifficultySprite* sprite = GJDifficultySprite::create(p0, name);
-        log::debug("{}", (int)p0);
         static_cast<ParticleGJDifficultySprite*>(sprite)->makeParticle(sprite->m_featureState);
         return sprite;
     }
