@@ -10,7 +10,7 @@
 		"source": "https://github.com/SawBlade21/rating-particles"
 	},
 	"name": "Rating Particles",
-	"version": "v1.0.1",
+	"version": "v1.0.2",
 	"developer": "Sawblade",
 	"description": "Adds Mythic rating particles to all ratings",
 	"settings": {
